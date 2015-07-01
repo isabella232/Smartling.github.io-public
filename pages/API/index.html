@@ -22,6 +22,12 @@ title: API
 <pre>Content-Type: text/html; charset=utf-8 </pre>
 <p>The Smartling Translation API supports UTF-8, UTF-16, US-ASCII, and ISO-8859-1 (aka Latin-1) encoding.</p>
 
+<h3>Date Format</h3>
+<p>All dates will follow the common <a href="http://en.wikipedia.org/wiki/ISO_8601" rel="nofollow">ISO 8601</a> date and time standard format, and will be expressed in UTC:</p>
+<p><code>YYYY-MM-DDThh:mm:ss</code></p>
+<p>For example, 10:31 PM UTC on Saturday, August 21, 2010 would be:</p>
+<p><code>2010-08-21T22:31:00</code></p>
+
 <h3>Authentication</h3>
 <p>Every API request you make must include both an API key and projectId. These credentials must be kept secure and can be found in your Smartling dashboard at: https://dashboard.smartling.com/settings/api</p>
 
