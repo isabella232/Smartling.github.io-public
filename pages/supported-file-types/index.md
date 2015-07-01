@@ -1,6 +1,7 @@
 ---
 layout: SupportedFilesTemplate
 title: Supported File Types
+redirect_from: "/display/docs/Supported+File+Types/"
 ---
 
 Smartling supports the following file formats:
