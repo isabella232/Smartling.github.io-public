@@ -2,7 +2,8 @@
 markdown:         kramdown
 highlighter:      pygments
 
-
+gems:
+  - jekyll-redirect-from
 
 # Setup
 title:            'Smartling'
