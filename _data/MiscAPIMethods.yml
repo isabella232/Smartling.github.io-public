@@ -103,7 +103,7 @@
   - Method: 'ProjectsAPI'
     Url: '/project/locale/list'
     Type : 'GET'
-    CurlGist: 
+    CurlGist: '444f518e015abb83c244'
     Intro: '<p>The Projects API allows you to access data such as language and locale codes that you can use in your own user profiles or dashboards.</p><p>All URLs have the following base: https://api.smartling.com/v1, and all of the following calls require both the apiKey and projectId parameter which you can find within your Smartling project''s dashboard: https://dashboard.smartling.com/settings/api</p>'
     Parameters:
         - Name: 
