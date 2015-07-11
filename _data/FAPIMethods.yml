@@ -253,7 +253,7 @@
           Required: required
           Description: 'Current value that uniquely identifies the file.'
 
-        - Name: newfileUri
+        - Name: newFileUri
           Required: required
           Description: 'The new value for fileUri. We recommend that you use file path + file name, similar to how version control systems identify the file. Example: /myproject/i18n/ui.properties. This must be a fileUri that does not exist in the Smartling database.'
 
