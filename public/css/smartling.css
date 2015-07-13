@@ -1,6 +1,3 @@
-body {
-  position: relative;
-}
 .code-sample .tab-pane {
   padding-top: 20px;
 }
@@ -50,9 +47,6 @@ body {
 .homeBanner .searchBox input {
   width: 100%;
   border: 1px solid #eee !important;
-}
-.st-default-autocomplete {
-  top: 0px !important;
 }
 .intro {
   margin-top: 63px;
