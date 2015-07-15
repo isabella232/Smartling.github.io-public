@@ -43,7 +43,7 @@
           Description: 'Provides custom parser configuration for supported file types. See Supported File Types for more details.'
 
         - Name: callbackUrl
-          Required: required
+          Required: optional
           Description: 'A GET request that creates a callback to a URL when a file is 100% published for a locale. The callback gives the fileUri and locale. If you upload the file again, without a callbackUrl, it will remove any previous callbackUrl for that file. The RequestBin (http://requestb.in) service is a convenient way to test callback. RequestBin generates a short-lived disposable URL that displays all posted requests.'
 
     Return:
