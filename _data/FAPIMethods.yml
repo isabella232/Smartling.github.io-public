@@ -44,7 +44,7 @@
 
         - Name: callbackUrl
           Required: optional
-          Description: 'A GET request that creates a callback to a URL when a file is 100% published for a locale. The callback gives the fileUri and locale. If you upload the file again, without a callbackUrl, it will remove any previous callbackUrl for that file. The RequestBin (http://requestb.in) service is a convenient way to test callback. RequestBin generates a short-lived disposable URL that displays all posted requests.'
+          Description: 'A GET request that creates a callback to a URL when a file is 100% published for a locale. The callback gives the fileUri and locale with the format <code>http[/s]://your.url?locale=xx-XX&fileUri=your.file</code>. If you upload the file again, without a callbackUrl, it will remove any previous callbackUrl for that file. The RequestBin (http://requestb.in) service is a convenient way to test callback. RequestBin generates a short-lived disposable URL that displays all posted requests.'
 
     Return:
       String: 
