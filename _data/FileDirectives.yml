@@ -15,7 +15,7 @@
           CodeJSON: '"placeholder_format" : "IOS"'
           Description: 'Specifies iOS-style placeholders for the file.'
 
-  - Directive:      'string format'
+  - Directive:      'string_format'
     Values:         '<strong>MESSAGE_FORMAT</strong> (default) or <strong>NONE</strong>'
     Description:    'String format is a parser directive for specialized file processing that enables string escaping and pre-processing rules as defined by various third party resource handlers. The default is <a href="http://docs.oracle.com/javase/6/docs/api/java/text/MessageFormat.html">MessageFormat</a>, a standard Java resource handler.'
     Examples:
