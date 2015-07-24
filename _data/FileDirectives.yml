@@ -1,6 +1,6 @@
 ---
   - Directive:      'placeholder_format_custom'
-    Values:         '1. Custom regular expression (<a ref="http://www.pcre.org">pcre</a>)<br/>2. <strong>NONE</strong> - disable custom placeholders'
+    Values:         '1. Custom regular expression (<a href="http://www.pcre.org">pcre</a>)<br/>2. <strong>NONE</strong> - disable custom placeholders'
     Description:    'Used to define a custom placeholder format for strings in the file'
     Examples:
         - Code: 'smartling.placeholder_format_custom = \[.+?\]'
