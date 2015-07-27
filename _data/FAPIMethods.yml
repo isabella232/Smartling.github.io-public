@@ -220,10 +220,10 @@
             Description: A unique identifier for the uploaded file.
 
           - Name: stringCount
-            Description: The number of strings in the uploaded file.
+            Description: The number of strings in the uploaded file, minus any excluded content.
 
           - Name: wordCount
-            Description: The number of words in the uploaded file.
+            Description: The number of words in the uploaded file, minus any excluded content.
 
           - Name: approvedStringCount
             Description: The number of strings in the uploaded file that are approved (available for translation).
