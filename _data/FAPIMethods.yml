@@ -184,7 +184,7 @@
             Description: The number of strings in the uploaded file that are approved (available for translation).
 
           - Name: completedStringCount
-            Description: The number of strings in the uploaded file that are approved and translated.
+            Description: The number of published strings in the uploaded file.
 
           - Name: lastUploaded
             Description: 'The time and date of the last upload: YYYY-MM-DDThh:mm:ss'
