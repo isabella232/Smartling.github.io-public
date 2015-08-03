@@ -306,7 +306,7 @@
           
         - Name: locale
           Required: optional
-          Description: 'Filters the response to only the specified locale. You can find the list of locale codes for your project in the <a href="https://dashboard.smartling.com/settings/api">Smartling Dashboard</a>'          
+          Description: 'Filters the response to only the specified locale. You can find the list of locale codes for your project in the <a href="https://dashboard.smartling.com/settings/api">Smartling Dashboard</a>.'          
           
     Return:
         String: 
