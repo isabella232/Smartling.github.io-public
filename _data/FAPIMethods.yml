@@ -298,11 +298,16 @@
     Parameters:
         - Name: fileUri
           Required: required
-          Description: 'Current value that uniquely identifies the file.'
+          Description: 'Value that uniquely identifies the file.'
 
-        - Name: newfileUri
-          Required: required
-          Description: 'The new value for fileUri. We recommend that you use file path + file name, similar to how version control systems identify the file. Example: /myproject/i18n/ui.properties. This must be a fileUri that does not exist in the Smartling database.'
+        - Name: lastModifiedAfter
+          Required: optional
+          Description: 'Limits the return to only those file and locale combinations that have a <code>lastModified</code> date after the parameter <code>lastModifiedAfter</code>. The items array will be empty if the file has not been modified in any of the locales since the lastModifiedAfter date specified. The date should be formatted according to <a href="/pages/API/">Date Format</a>.'
+          
+        - Name: locale
+          Required: optional
+          Description: 'Filters the response to only the specified locale. You can find the list of locale codes for your project in the <a href="https://dashboard.smartling.com/settings/api">Smartling Dashboard</a>'          
+          
     Return:
         String: 
         Json: '{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"items" : [{<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"locale": "fr-FR",<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"lastModified": "YYYY-MM-DDThh:mm:ss"<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ ... }]<br/>}'
