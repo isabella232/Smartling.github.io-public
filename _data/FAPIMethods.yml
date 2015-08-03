@@ -37,6 +37,10 @@
         - Name: fileType
           Required: required
           Description: 'Unique identifier for the file type. Permitted values: android, ios, gettext, html, javaProperties, yaml, xliff, xml, json, docx, pptx, xlsx, idml, qt, resx, plaintext, cvs, stringsdict.'
+          
+        - Name: smartling.namespace
+          Required: optional
+          Description: 'For accounts created after July 31st 2015 only. Define a custom <a href="http://support.smartling.com/hc/en-us/articles/207178807">namespace</a> for the file.'
 
         - Name: 'smartling.[command]'
           Required: optional
