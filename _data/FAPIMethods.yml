@@ -288,7 +288,7 @@
     Name: 'Last Modified'
     Url: file/last_modified
     Type : GET
-    Intro: '<p>Returns information about when a file was last modified for a particular locale, and allows you to filter by lastModified date and/or locale so that you can download only those files changed since their last download.</p><p><strong>Note:</strong></p><ul><li>Just because a file is modified, the downloaded file won''t necessarily be different than the one you previously downloaded because the changes may not impact the translations for the particular retrieval type of the file.</li><li>When you add a new file, the lastModified date will originally be the creation date of the file. When you add a new locale, the lastModified date will originally be the date the site locale was added.</li></ul>'
+    Intro: '<p>Returns information about when a file was last modified for a particular locale, and allows you to filter by lastModified date and/or locale so that you can download only those files changed since their last download.</p><p><strong>Note:</strong></p><ul><li>The <code>lastModified</code> parameter is updated when a new translation is saved, even if it is not published. This means that the changes may not be reflected in a downloaded file, if your <a href="http://docs.smartling.com/pages/API/FileAPI/#DownloadFiles">retrievalType</a> is set to <code>published</code> or <code>pseudo</code>.</li><li>When you add a new file, the lastModified date will originally be the creation date of the file. When you add a new locale, the lastModified date will originally be the date the site locale was added.</li></ul>'
     CurlGist: 73b2dffebc0dec2c51b8
     RubyGist: 
     PHPGist:  
