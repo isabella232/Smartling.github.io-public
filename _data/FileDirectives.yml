@@ -233,7 +233,11 @@
     Examples:
         - CodeCSV: 'smartling.add_utf8_bom=TRUE'
 
-
+  - Directive:      'translate_mode'
+    Values:         '<code>ALL</code> or <code>CUSTOM</code>(default)'
+    Description:    '<p>If set to ALL, all values will be translated. If set to CUSTOM, only the paths specified using the <code>translate_paths</code> directive will be translated</p>'
+    Examples:
+        - CodeJSON: '"translate_mode" : "CUSTOM"'
 
 
 
