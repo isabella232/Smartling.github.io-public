@@ -241,30 +241,6 @@
           - Name: fileType
             Description: 'The type of file: android, ios, gettext, javaProperties, xliff, yaml, etc'
             
-  - Method: ListAuthorisedLocales
-    Name: 'List Authorized Locales'
-    Url: /file/authorized_locales
-    Type : GET
-    Intro: 'Lists all locales where a file has been authorized for translation.'
-    CurlGist: 4c15428869247dba4e0a
-    RubyGist: 
-    PHPGist:  
-    JavaGist: 
-    CsharpGist: 
-    PythonGist: 
-    Parameters:
-        - Name: fileUri
-          Required: required
-          Description: 'Value that uniquely identifies the file.'
-
-    Return:
-        String: 
-        Json: '{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"locales" : ["fr-FR","de-DE","es-ES","zh-CN"]<br/>}'
-        Parameters:
-
-          - Name: locales
-            Description: An array of locales where the file has been authorized for translation.
-
   - Method: Rename
     Name: 'Rename'
     Url: /file/rename
